@@ -1,0 +1,92 @@
+* {
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+body {
+    max-width: 62.5em;
+    margin: auto;
+}
+
+
+/* Title */
+#top-content h1 {
+    padding: 0 0.25em;
+}
+
+/* Navigation Bar Styles */
+
+.main-navigation-list {
+    background-color: rgb(233, 233, 233);
+    border-radius: 15pt;
+    padding: 0.25em 0.25em;
+}
+
+.main-navigation-list ul {
+    padding: 0.25em;
+}
+
+.main-navigation-list li {
+    display: inline;
+    padding: 0.5em;
+}
+
+.main-navigation-list a {
+    text-decoration: none;
+    color: black;
+}
+
+.main-navigation-list a:hover {
+    color: brown;
+}
+
+/* Blog Page */
+
+#blog-page a {
+    text-decoration: none;
+    color: black;
+}
+
+#blog-page a:hover {
+    color: brown;
+}
+
+/* Blogs!! */
+#blog-information{
+    margin: 1em 0;
+}
+#blog-information p {
+    padding: 0;
+    margin: 0 0;
+}
+
+/* Blog Nav */
+.return {
+    padding:1em 0;
+}
+
+.return a {
+    text-decoration: none;
+    color: black;
+}
+
+.return  a:hover {
+    color: brown;
+}
+
+/* Block Images */
+
+.image {
+    padding: 1em;
+}
+
+.image img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60em;
+}
+.image p {
+    padding: 0;
+    margin: 0 auto 0 auto;
+    max-width: 60em;
+}
