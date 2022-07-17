@@ -5,6 +5,7 @@
 body {
     max-width: 62.5em;
     margin: auto;
+    padding: 1em;
     background-color: rgb(240, 240, 240);
 }
 
