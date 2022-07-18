@@ -1,6 +1,6 @@
 * {
     font-family: 'IBM Plex Mono', monospace;
-    font-size: clamp(16px, 3vw, 32px);
+    /* font-size: clamp(16px, 3vw, 32px); */
 }
 
 body {
