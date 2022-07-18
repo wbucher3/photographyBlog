@@ -1,5 +1,6 @@
 * {
     font-family: 'IBM Plex Mono', monospace;
+    font-size: clamp(16px, 3vw, 32px);
 }
 
 body {
@@ -78,7 +79,10 @@ body {
 /* Block Images */
 
 .image {
+    display: flex;
+    flex-direction: column;
     padding: 1em;
+
 }
 
 .image img {
@@ -86,9 +90,10 @@ body {
     margin-left: auto;
     margin-right: auto;
     max-width: 60em;
+    width: 100%;
 }
 .image p {
     padding: 0;
-    margin: 0 auto 0 auto;
+    margin: 0;
     max-width: 60em;
 }
